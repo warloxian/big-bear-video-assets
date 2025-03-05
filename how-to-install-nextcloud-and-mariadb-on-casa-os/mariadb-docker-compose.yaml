@@ -18,7 +18,7 @@ services:
       - PUID=1000
       - PGID=1000
       # TZ sets the timezone for the container.
-      - TZ=Etc/UTC
+      - TZ=US/mst
       # MYSQL_ROOT_PASSWORD sets the root password for MariaDB.
       - MYSQL_ROOT_PASSWORD=password
       # MYSQL_DATABASE sets the name of a database to be created on image startup (optional).
